@@ -1,0 +1,42 @@
+header {
+    color: red;
+}
+header{
+    font-size: x-large;
+}
+body{
+    color: royalblue;
+}
+body{
+    background-color: wheat;
+}
+.black-border{
+    border: 5px solid black;
+}
+#green-background {
+    background-color: lightgreen;
+}
+.font-type {
+    font-style: oblique;
+}
+.red-border{
+    border: 10px dotted red;
+}
+.font-size{
+    font-size: 50px;
+}
+#purple-color{
+    color: purple;
+}
+.green-border{
+    border: 25px double green;
+}
+#back-ground{
+    background-color: honeydew;
+}
+.font-size2{
+    font-size: 30px;
+}
+.caps{
+    font-variant: small-caps;
+}
