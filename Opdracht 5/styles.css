@@ -1,0 +1,19 @@
+.box1{
+    padding: 15px;
+    border: 2px solid coral;
+    margin: 50px 10px 70px 0px;
+}
+.box2{
+    padding: 25px;
+    border: double blue;
+    margin: 50px 15px 70px 0px;
+}
+.box3{
+    padding: 10px 15px 10px 15px;
+    border: 3px dotted red;
+    margin: 0 auto;
+    width: fit-content;
+}
+ul li{
+    display: inline;
+}
