@@ -1,0 +1,47 @@
+.box1{
+    padding: 15px;
+    border: 2px solid coral;
+    margin: 50px 10px 70px 0px;
+    background-color: lightblue;
+}
+.box2{
+    padding: 25px;
+    border: double ;
+    margin: 50px 15px 70px 0px;
+    background-color: lightblue;
+}
+.box3{
+    padding: 15px;
+    border: 3px dotted red;
+    margin: 15px;
+    background-color: lightblue;
+}
+ul li{
+    display: inline;
+}
+.centreren {
+    text-align: center;
+}
+body{
+    background-color: cadetblue;
+}
+@media (min-width: 1024px) {
+    body{
+   background-color: lightsteelblue
+    }
+}
+@media (min-width: 1024px) {
+    body {
+   color: red
+    }
+}
+@media (min-width: 1024px) {
+    body {
+   font-size: small;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+   line-height: 40px
+    }
+}
