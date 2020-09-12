@@ -1,0 +1,43 @@
+.box1{
+    padding: 15px;
+    border: 2px solid black;
+    margin: 50px 10px 20px 0px;
+    background-color: lightblue;
+}
+.box2{
+    padding: 25px;
+    border: 2px solid black;
+    margin: 50px 15px 20px 0px;
+    background-color: lightblue;
+}
+.box3{
+    padding: 15px;
+    border: 2px solid black;
+    margin: 50px 15px 20px 0px;
+    background-color: lightblue;
+}
+.box4{
+    padding: 15px;
+    border: 2px solid black;
+    margin: 50px 15px 20px 0px;
+    background-color: lightblue;
+    line-height: 30px;
+    font: normal;
+}
+ul li{
+    display: inline;
+}
+.centreren {
+    text-align: center;
+}
+body{
+    background-color: cadetblue;
+}
+@media (min-width: 1024px) {
+    body{
+        background-color: lightsteelblue;
+        color: red;
+        font-size: small;
+        line-height: 40px;
+}
+}
