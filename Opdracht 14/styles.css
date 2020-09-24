@@ -1,0 +1,57 @@
+.container {
+  width: 100%; 
+}
+.blok {
+  display: inline-block;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  width: 48%;
+  height: 225px;
+  border-radius: 2%;
+  border: 1px solid lightgray;
+  color: black;
+}
+.pasfoto {
+  float:right;
+  padding: auto;
+  margin: 10px;
+  }
+.naam {
+  text-align: left;
+  font-size: xx-large;
+  margin: 10px;
+}
+.aanduiding {
+  margin: 10px;
+  font-size: x-large;
+  color: gray;
+}
+.verzoek {
+  margin: 10px;
+  font-size: x-large; 
+}
+.lijn {
+  border-bottom: 1px solid lightgray;
+}
+.div1 {
+  float: left;
+  width: 45%;
+  margin-left: 10px;
+  margin-right:1%;
+  border: 1px solid green;
+  color: green;
+  font-size: x-large;
+  text-align: center;
+  }
+.div2 {
+  float: left;
+  width: 45%;
+  margin-left:-1%;
+  border: 1px solid red;
+  color: red;
+  font-size: x-large;
+  text-align: center;
+}
+* {
+  background-color: white;
+}
