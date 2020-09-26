@@ -1,0 +1,46 @@
+body {
+    width: 700px;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightsteelblue;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.img1:hover {
+    color: lightblue;
+    font-weight: bolder;
+}
+.img2:active {
+    color: red;
+    font-style: italic;
+}
+.img3:visited {
+    color: yellow;
+}
+.input:focus {
+    color: green;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: lightblue;
+    padding-right: 150px;
+    border: 1px solid lightseagreen;
+}
+.container li:first-of-type {
+    font-size: 16px;
+    margin-left: -40px;
+}
+.currentPage:hover {
+    background-color: lightskyblue;
+    height: 20px;
+}
+.border:focus {
+    border: 2px solid darkblue;
+}
+  
+
