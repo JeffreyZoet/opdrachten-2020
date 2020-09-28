@@ -1,0 +1,29 @@
+body {
+    width: 675px;
+    height: auto;
+    padding: 10px;
+    margin: 10px
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
+    border: 1px solid black;
+}
+ul, ol {
+    list-style: none; 
+}
+li {
+    line-height: 30px;
+    background-color: slategray;
+    text-align: center;
+}
+.one li:nth-child(1) {
+    background-color: lightsteelblue;
+}
+.two :nth-child(2) :nth-child(3) {
+    background-color: lightsteelblue;
+}
+.three :nth-child(odd) :nth-child(-n+3) {
+    background-color: lightsteelblue;
+}
