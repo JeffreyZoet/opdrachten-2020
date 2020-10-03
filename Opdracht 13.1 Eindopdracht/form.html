@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Mijn webite gaat over Rome</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Terug naar mijn website over Rome</a>
+        </nav>
+    </header>
+    <main>
+        <form name="form" method="POST" data-netlify="true" class="form">
+            <h3>Informatieformulier Rome</h3>
+            <p><label>Voornaam: <input type="text" name="Voornaam" size="30"/></label></p>
+            <p><label>Achternaam: <input type="text" name="Achternaam" size="30"/></label></p>
+            <p><label>E-mail: <input type="email" name="E-mail" size="30"/></label></p>
+            <p><label>Provincie: <input type="text" name="Provincie" size="30"/></label></p>
+            <p>
+            <label>Welke informatie wilt u ontvangen (meerdere keuzes mogelijk)?:<br>
+                <label>Musea Rome: <input type="checkbox" name="Musea Rome"/></label><br>
+                <label>Culinair Rome: <input type="checkbox" name="Culinair Rome"/></label><br>
+                <label>Top 25 Rome: <input type="checkbox" name="Top 25 Rome"/></label><br>
+                <label>Het oude Rome: <input type="checkbox" name="Het oude Rome"/></label>
+            </label>
+            </p>
+            <p>
+                <label>Wilt u een Nederlandstalige gids boeken in Rome?:<br>
+                <label>Ja <input type="radio" id="ja" value="ja" name="gids" /></label<br>
+                <label>Nee <input type="radio" id="nee" value="nee" name="gids" /></label><br>
+            </p>
+            <p>
+                <label> Zo ja wanneer?:<br>
+                <label> Vermeld a.u.b. de datum, dan nemen wij contact met u op: <input type="date" name="Geef de datum op"/></label><br>
+                </label>
+            </p>
+            <p><label> U kunt hier uw vragen of opmerkingen doorgeven:</label> <textarea name="Voor vragen of opmerkingen"></textarea></p>
+            <p><label> Reset formulier: <input type="reset" name="Reset formulier"/></label></p>
+            <p><input type="submit" name="Verzenden"/></p>
+        </form>
+    </main>
+</body>
+
+</html>
