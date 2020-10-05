@@ -1,0 +1,11 @@
+$color: black;
+$background-color1: #ecffe9;
+$background-color2: #c0eea9;
+$background-color3: #97d279;
+$padding: 20px;
+
+@mixin textstyling {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+}
