@@ -1,0 +1,63 @@
+Last login: Mon Oct 26 14:29:34 on ttys000
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % whoami
+jeffreyzoet
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % ls
+Applications			Movies				Sites
+Desktop				Music				iCloud Drive (archief)
+Documents			OneDrive			iCloud Drive (archief) - 1
+Downloads			Pictures			iCloud Drive (archief) - 2
+Dropbox				Public				test
+Library				Samsung
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % cd test
+jeffreyzoet@MacBook-Pro-Jeffrey test % pwd
+/Users/jeffreyzoet/test
+jeffreyzoet@MacBook-Pro-Jeffrey test % mkdir voorbeeld1     
+jeffreyzoet@MacBook-Pro-Jeffrey test % ls
+opdracht	voorbeeld1
+jeffreyzoet@MacBook-Pro-Jeffrey test % cd voorbeeld1
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % touch script.js
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % ls
+script.js
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % cd
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % cd test
+jeffreyzoet@MacBook-Pro-Jeffrey test % cd voorbeeld1
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % ls
+script.js
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % rm script.js
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % ls
+jeffreyzoet@MacBook-Pro-Jeffrey voorbeeld1 % cd
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % cd test
+jeffreyzoet@MacBook-Pro-Jeffrey test % rmdir voorbeeld1
+jeffreyzoet@MacBook-Pro-Jeffrey test % ls
+opdracht
+jeffreyzoet@MacBook-Pro-Jeffrey test % cd
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % ls
+Applications			Movies				Sites
+Desktop				Music				iCloud Drive (archief)
+Documents			OneDrive			iCloud Drive (archief) - 1
+Downloads			Pictures			iCloud Drive (archief) - 2
+Dropbox				Public				test
+Library				Samsung
+jeffreyzoet@MacBook-Pro-Jeffrey ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
